@@ -1,0 +1,73 @@
+{ "Projetos": [
+    {
+        "title": "Aplicativo Móvel SAP FIORI",
+        "company": "Aço Cearense",
+        "text": "Criação de aplicativo móvel customizado com recurso do notificação push, para platforma iOS e Android. ",
+        "period": "2020",
+        "tecnos": "ABAP / SAPUI5 / SAP Cloud Platform / SAP Mobile Service / Cordova"
+    },
+    {
+        "title": "Workflow de aprovação de Solicitações",
+        "company": "Aço Cearense",
+        "text": "Aplicações FIORI para aprovações de solicitações de adiantamento Financeiros e Alteração de Orçamento. ",
+        "period": "2020",
+        "tecnos": "ABAP / SAPUI5 / FIORI / SAP Gateway / FI / CO "
+    },
+    {
+        "title": "Extenção e Configuração FIORI Standard",
+        "company": "Aço Cearense",
+        "text": "Extenção e configuração de aplicações FIORI Standard, como aprovação de Pedidos, Requisição e Contrato ",
+        "period": "2019",
+        "tecnos": "ABAP / SAPUI5 / FIORI / SAP Gateway / MM "
+    },
+    {
+        "title": "Upgrade SAP FIORI 2.0",
+        "company": "Aço Cearense",
+        "text": "Atualização SAP FIORI Front-end Server para a a versão FIORI 2.0. ",
+        "period": "2019",
+        "tecnos": "ABAP / SAPUI5 / FIORI / SAP Gateway"
+    },
+
+    {
+        "title": "Suporte ABAP",
+        "company": "CJ Selecta",
+        "text": "Suporte ABAP para atendimentos pontuais",
+        "period": "Desde 2019",
+        "tecnos": "ABAP"
+    },
+    {
+        "title": "Aplicação FIORI Ocorrência de Manutenção",
+        "company": "CSP",
+        "text": "Aplicações FIORI para criação e monitoramento de ocorrência da manutenção.",
+        "period": "2018",
+        "tecnos": "ABAP / SAPUI5 / FIORI / SAP Gateway / PM / QM "
+    },
+    {
+        "title": "Automação Recebimento de NFe e CTe",
+        "company": "CSP",
+        "text": "Automação Recebimento de NFe e CTe com integração do Mastersaf e SEFAZ",
+        "period": "2018",
+        "tecnos": "ABAP / MM / LE "
+    },
+    {
+        "title": "Suporte SAP",
+        "company": "Dongkuk Systems",
+        "text": "Suporte ABAP e UI5 a varios clientes como: CSP, Betânia, Aço Cearense, Adtalem",
+        "period": "Desde 2017",
+        "tecnos": "ABAP / SAPUI5 / FIORI  "
+    },
+    {
+        "title": "Implantação SAP",
+        "company": "Servis",
+        "text": "Participação no projeto de implementação SAP nos módulos de HCM e FI",
+        "period": "2016",
+        "tecnos": "ABAP / HCM / FI "
+    },
+    {
+        "title": "Suporte AMS",
+        "company": "GFX Consultoria",
+        "text": "Suporte ABAP em varios clientes como: Aeris Energy, Faculdade Devry Fanor, M.Dias Branco, J.Macedo, Cosplastic",
+        "period": "2014 - 2017",
+        "tecnos": "ABAP"
+    }
+]}

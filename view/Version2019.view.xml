@@ -1,0 +1,222 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.uxap"
+	xmlns:layout="sap.ui.layout"
+	xmlns:forms="sap.ui.layout.form"
+	xmlns:m="sap.m"
+	xmlns:f="sap.f"
+	xmlns:cards="sap.f.cards"
+	controllerName="my.Curriculum.MyCurriculum.controller.Version2019"
+	displayBlock="true">
+	<ObjectPageLayout id="ObjectPageLayout"
+		upperCaseAnchorBar="false" >
+		<headerTitle>
+			<ObjectPageDynamicHeaderTitle>
+
+				<expandedHeading>
+						<m:Title text="Israel Carlos Siva de Freitas" wrapping="true"/>
+				</expandedHeading>
+
+				<snappedHeading>
+					<m:FlexBox  fitContainer="true" alignItems="Center">
+						<m:Avatar src="midia/Israel1.png" class="sapUiTinyMarginEnd"/>
+						<m:Title text="Israel Carlos Siva de Freitas" wrapping="true"/>
+					</m:FlexBox>
+				</snappedHeading>
+
+				<expandedContent>
+					<m:Text text="Desenvolvedor ABAP/UI5"/>
+				</expandedContent>
+
+				<snappedContent>
+					<m:Text text="Desenvolvedor ABAP/UI5"/>
+				</snappedContent>
+
+			</ObjectPageDynamicHeaderTitle>
+		</headerTitle>
+
+		<headerContent>
+			<m:FlexBox wrap="Wrap">
+				<m:Avatar class="sapUiSmallMarginEnd" src="midia/Israel1.png"  displaySize="L" />
+
+					<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+						<m:Link text="+55 85 98791 0748"/>
+						<m:Link text="israelcarlossf@gmail.com" href="mailto:israelcarlossf@gmail.com" />
+						<m:Link text="Skype: israelcarlos07" href="https://join.skype.com/invite/rvc1xVadUmcq" />
+						<m:Link text="Linkedin" href="www.linkedin.com/in/israel-carlos-54329ab4"/>
+					</layout:VerticalLayout>
+
+				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+					<m:Text text="Olá, sou um entusiasta de inovações tecnologicas imerso no mundo SAP e sempre a procura de novos aprendizados."/>
+					<m:Text text="Tenho interesse de atuar em áreas de desenvolvimentos de softwares do sistema SAP, além de tecnologias Web e Serviços Cloud.."/>
+					<m:Label text="Fortaleza-CE, Brasil"/>
+					<m:Label text="23 Anos"/>
+				</layout:VerticalLayout>
+
+			</m:FlexBox>
+		</headerContent>
+
+		<sections>
+			<ObjectPageSection titleUppercase="false" title="Sobre Mim">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<m:Text text="Consultor ABAP certificado pela SAP, com experiência em suporte AMS e projetos de implantação SAP, desenvolvedor UI5 com experiência em: configuração e customizações de ambientes FIORI, implementação de serviços oData via SAP Gataway, programação web em geral (JavaScript, HTML, CSS, NodeJs entre outros), PI, BW, Web Dynpro e Banco de Dados."/>
+								<m:Text text="Experiência também no uso da SAP Cloud Platform, em serviços como SAP Web IDE, SAP Mobile Services (para criação de aplicativos FIORI customizados para iOs e Android), SAP Build, Portal, Connectivity entre outros."/>
+							</m:VBox>
+							</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
+			<ObjectPageSection titleUppercase="false" title="Formação Acadêmica">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<!-- COLUNA 1-->
+							<m:VBox>
+								<m:Label text="Graduado em:" design="Bold"/>
+								<m:Text text="Análise e Desenvolvimento de Sistemas - Faculdade Estácio de Sá (2014 - 2017)"/>
+							</m:VBox>
+							
+							<!-- COLUNA 2 -->
+							<m:VBox justifyContent="SpaceBetween">
+							</m:VBox>
+							
+							<!-- COLUNA 3-->
+							<m:VBox>
+								<m:Label text="Pós-Graduação em conclução:" design="Bold"/>
+								<m:Text text="Engenharia de Software - Universidade 7 de Setembro (2018 - 2020)"/>
+							</m:VBox>
+							
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
+			<ObjectPageSection titleUppercase="false" title="Competências">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<!-- COLUNA 1-->
+							<m:VBox>
+								<m:Label text="Certificado em:" design="Bold"/>
+								<m:Text text="SAP Certified Development Associate – ABAP with SAP NetWeaver 7.40" class="sapUiSmallMarginBottom"/>
+						
+							</m:VBox>
+							
+							<!-- COLUNA 2 -->
+							<m:VBox justifyContent="SpaceBetween">
+								<m:Label text="Idiomas:" design="Bold"/>
+								<!--<m:HBox>-->
+									<m:ObjectStatus state="Success" text="Português" />
+									<m:ObjectStatus state="Warning" text="Inglês Técnico" />
+								<!--</m:HBox>-->
+							</m:VBox>
+							
+							<!-- COLUNA 3-->
+							<m:VBox>
+								<m:Label text="Desenvolvimento em:" design="Bold"/>
+								
+								<m:HBox justifyContent="SpaceAround">
+									<m:ObjectStatus inverted="true" state="Indication06" text="ABAP" />
+									<m:ObjectStatus inverted="true" state="Indication06" text="JavaScript" />
+									<m:ObjectStatus inverted="true" state="Indication06" text="HTML" />
+									<m:ObjectStatus inverted="true" state="Indication06" text="CSS" />
+									<m:ObjectStatus inverted="true" state="Indication06" text="Banco de Dados" />
+								</m:HBox>
+								
+								<m:HBox justifyContent="SpaceAround">
+									<m:ObjectStatus inverted="true" state="Success" text="SAPUI5" />
+									<m:ObjectStatus inverted="true" state="Success" text="Cordova" />
+									<m:ObjectStatus inverted="true" state="Success" text="NodeJs" />
+									<m:ObjectStatus inverted="true" state="Success" text="OData" />
+								</m:HBox>
+
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection titleUppercase="false" title="Experiência">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<m:Text text="- Desenvolvimento de programas e customizações ABAP." />
+								<m:Text text="- Configuração e customização Ambientes SAP FIORI Front-End."/>
+								<m:Text text="- SAP Gateway: Modelagem, implementação e customização de serviços oData."/>
+								<m:Text text="- Utilização de Serviços Cloud como SAP Cloud Platform, AWS e Firebase."/>
+								<m:Text text="- Criação e Customização de Aplicativos Moveis (iOS e Android) usando Cordova."/>
+								<m:Text text="- Desenvolvimento de aplicações UI5 e Web em geral."/>
+								<m:Text text="- Suporte em integrações Web Service (REST, SOAP) e SAP PI."/>
+							</m:VBox>
+							<m:VBox>
+								<m:Label text="SAP Cloud Platform:" design="Bold"/>
+								<m:Text text="- SAP Web IDE." />
+								<m:Text text="- SAP Mobile Services."/>
+								<m:Text text="- SAP Business Studio."/>
+								<m:Text text="- SAP Cloud Connector (Conexões com Servidor On Premise)."/>
+								<m:Text text="- SAP Build."/>
+								<m:Text text="- Portal ."/>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
+			<ObjectPageSection titleUppercase="false" title="Mini Bio">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:FormattedText id="MiniBio"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
+			<ObjectPageSection titleUppercase="false" title="Projetos">
+				<subSections>
+					<ObjectPageSubSection >
+						<blocks>
+							<m:VBox>
+							<m:Label text="*Lista de Projetos Mais Relevantes"/>
+							<m:Carousel height="auto" pages="{
+								path: '/Projetos'
+							}">
+								
+								<m:customLayout>
+									<m:CarouselLayout visiblePagesCount="4" />
+								</m:customLayout>
+					
+								<f:Card>
+									<f:header>
+										<cards:Header
+											title="{title}"
+											subtitle="{company} - {period}" />
+									</f:header>
+									<f:content>
+										<forms:SimpleForm editable="false" layout="ColumnLayout">
+											<m:Label text="Detalhe" design="Bold" />
+											<m:Text text="{text}"  />
+											<m:Label text="Tecnologias/Módulos" design="Bold" />
+											<m:Text text="{tecnos}"  />
+										</forms:SimpleForm>
+									</f:content>
+								</f:Card>
+							</m:Carousel>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+		<footer>
+			<m:OverflowToolbar>
+				<m:ToolbarSpacer />
+				<m:Label text="Aguardo seu contato !"/>
+			</m:OverflowToolbar>
+		</footer>
+	</ObjectPageLayout>
+</mvc:View>
